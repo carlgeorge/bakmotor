@@ -76,7 +76,7 @@ BAKMOTOR.slider = function(){
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
-		slides 					:  	[			// Slideshow Images
+		slides 					:  	[			// Slideshow Images 
 											{image : 'http://fontmeme.com/freefonts/img.php?f=33452&s=55&c=FFFFFF', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
