@@ -77,7 +77,7 @@ BAKMOTOR.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content"><a href="http://fontmeme.com/freefonts/33452/malefic_font.font"><img alt="Malefic Font Font" src="http://fontmeme.com/freefonts/img.php?f=33452&s=55&c=FFFFFF"></a></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''}  
