@@ -396,7 +396,7 @@
   	only screen and (min-resolution: 2dppx) {
 		
 		header #logo a {
-			background-image: url(../img/logo_@2x.png);
+			background-image: <a href="http://fontmeme.com/monster-energy-font/"><img src="http://fontmeme.com/embed.php?text=BAK%20motorsports&name=Green_Energy.ttf&size=14&style_color=F5F5FA" alt="Monster Energy Font"></a>;
 			background-size: 96px 30px;
 		}
 		
