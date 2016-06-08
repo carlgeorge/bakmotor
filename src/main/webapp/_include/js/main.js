@@ -80,7 +80,7 @@ BAKMOTOR.slider = function(){
 											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''}   
+											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">BAK MotorSports</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
@@ -406,7 +406,7 @@ $(document).ready(function(){
 	{
 		test: Modernizr.placeholder,
 		nope: '_include/js/placeholder.js', 
-		complete : function() {
+		complete : ""/*function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
 						live: true,
@@ -415,7 +415,7 @@ $(document).ready(function(){
 						textColor: "#999"
 						});    
 				}
-		}
+		}*/
 	}
 	]);
 	
