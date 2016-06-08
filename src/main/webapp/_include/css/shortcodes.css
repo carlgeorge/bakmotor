@@ -559,7 +559,7 @@ blockquote small:before {
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
 		  
-	-webkit-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg) scale(1);
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		 -o-transform: rotateY(0deg);
@@ -581,7 +581,7 @@ blockquote small:before {
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
 		  
-	-webkit-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg) scale(1);
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		 -o-transform: rotateY(0deg);
@@ -592,7 +592,7 @@ blockquote small:before {
 .icons-example ul li.active a {
 	background-color: #DE5E60;	
 	
-	-webkit-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg) scale(1);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
@@ -605,7 +605,7 @@ blockquote small:before {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	-webkit-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg) scale(1);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
