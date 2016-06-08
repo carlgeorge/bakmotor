@@ -19,7 +19,7 @@ html, body {
 html, hmtl a{
 	width:100%;
 	font-size: 100%; 
-	@-webkit-text-size-adjust: 100%; 
+	-webkit-text-size-adjust: 100%; 
 	-ms-text-size-adjust: 100%;
 }
 
@@ -38,7 +38,7 @@ a{
 	text-decoration: none;
 	cursor: pointer;
 	
-	@-webkit-transition: color 0.1s linear 0s;	
+	-webkit-transition: color 0.1s linear 0s;	
 	   -moz-transition: color 0.1s linear 0s;
 		 -o-transition: color 0.1s linear 0s;
 		    transition: color 0.1s linear 0s;
@@ -133,8 +133,8 @@ textarea:-ms-input-placeholder {
   color: #7F8289;
 }
 
-input::@-webkit-input-placeholder,
-textarea::@-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   color: #7F8289;
 }
 
@@ -145,7 +145,7 @@ textarea::@-webkit-input-placeholder {
 code,
 pre {
   	padding: 0 3px 2px;
-  	@-webkit-border-radius: 3px;
+  	-webkit-border-radius: 3px;
        -moz-border-radius: 3px;
             border-radius: 3px;
   	color: #232527;
@@ -166,7 +166,7 @@ pre {
   	margin: 70px 50px;
   	padding: 30px;
   	border: 1px solid #dde4e9;
-  	@-webkit-border-radius: 4px;
+  	-webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
   	background-color: #FCFCFC;
@@ -357,7 +357,7 @@ h3.spec {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	@-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
@@ -415,11 +415,11 @@ h3.spec {
 	width: 12px;
 	height: 12px;
 	
-	@-webkit-border-radius: 999px;
+	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;	
 	
-	@-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
@@ -442,7 +442,7 @@ h3.spec {
 	width: 50px;
 	height: 50px;
 	
-	@-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
@@ -483,7 +483,7 @@ header .sticky-nav {
 	background: #26292E;
 	z-index: 1001;
 	
-	@-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
@@ -511,7 +511,7 @@ header #logo a {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	@-webkit-transition: opacity 0.25s ease-in-out 0s;	
+	-webkit-transition: opacity 0.25s ease-in-out 0s;	
 	   -moz-transition: opacity 0.25s ease-in-out 0s;
 		 -o-transition: opacity 0.25s ease-in-out 0s;
 		    transition: opacity 0.25s ease-in-out 0s;	
@@ -572,13 +572,13 @@ nav#menu #menu-nav li a:hover {
 	display: block;
 	margin: 22px 0 0 0;
 	
-	@-webkit-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
 	   -moz-transform: rotate(0deg);
 		-ms-transform: rotate(0deg);
 		 -o-transform: rotate(0deg);
 			transform: rotate(0deg);
 	
-	@-webkit-transition: @-webkit-transform 250ms ease-out 0s;	
+	-webkit-transition: -webkit-transform 250ms ease-out 0s;	
 	   -moz-transition: -moz-transform 250ms ease-out 0s;
 		 -o-transition: -o-transform 250ms ease-out 0s;
 		    transition: transform 250ms ease-out 0s;
@@ -587,13 +587,13 @@ nav#menu #menu-nav li a:hover {
 .menu-nav.open {
 	background-position: 0 -16px;
 		  
-	@-webkit-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
 	   -moz-transform: rotate(-180deg);
 		-ms-transform: rotate(-180deg);
 		 -o-transform: rotate(-180deg);
 			transform: rotate(-180deg);
 	
-	@-webkit-transition: @-webkit-transform 250ms ease-out 0s;	
+	-webkit-transition: -webkit-transform 250ms ease-out 0s;	
 	   -moz-transition: -moz-transform 250ms ease-out 0s;
 		 -o-transition: -o-transform 250ms ease-out 0s;
 		    transition: transform 250ms ease-out 0s;	
@@ -724,12 +724,12 @@ nav#menu #menu-nav li a:hover {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	
-	@-webkit-transition: all 450ms ease-out 0s;	
+	-webkit-transition: all 450ms ease-out 0s;	
 	   -moz-transition: all 450ms ease-out 0s;
 		 -o-transition: all 450ms ease-out 0s;
 		    transition: all 450ms ease-out 0s;
 		  
-	@-webkit-transform: rotateY(180deg) scale(0.5,0.5);
+	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
 	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
 		-ms-transform: rotateY(180deg) scale(0.5,0.5);
 		 -o-transform: rotateY(180deg) scale(0.5,0.5);
@@ -741,7 +741,7 @@ nav#menu #menu-nav li a:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	@-webkit-transform: rotateY(0deg) scale(1,1);
+	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
 		 -o-transform: rotateY(0deg) scale(1,1);
@@ -804,12 +804,12 @@ nav#menu #menu-nav li a:hover {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	
-	@-webkit-transition: all 450ms ease-out 0s;	
+	-webkit-transition: all 450ms ease-out 0s;	
 	   -moz-transition: all 450ms ease-out 0s;
 		 -o-transition: all 450ms ease-out 0s;
 		    transition: all 450ms ease-out 0s;
 		  
-	@-webkit-transform: rotateY(180deg) scale(0.5,0.5);
+	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
 	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
 		-ms-transform: rotateY(180deg) scale(0.5,0.5);
 		 -o-transform: rotateY(180deg) scale(0.5,0.5);
@@ -821,7 +821,7 @@ nav#menu #menu-nav li a:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	@-webkit-transform: rotateY(0deg) scale(1,1);
+	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
 		 -o-transform: rotateY(0deg) scale(1,1);
@@ -879,7 +879,7 @@ nav#menu #menu-nav li a:hover {
 	opacity: 0.3;
 	filter: alpha(opacity=30);
 	
-	@-webkit-transition: opacity 0.1s linear 0s;	
+	-webkit-transition: opacity 0.1s linear 0s;	
 	   -moz-transition: opacity 0.1s linear 0s;
 		 -o-transition: opacity 0.1s linear 0s;
 		    transition: opacity 0.1s linear 0s;
@@ -926,11 +926,11 @@ nav#menu #menu-nav li a:hover {
 #contact-form input,
 #contact-form textarea {
     border: none;
-	@-webkit-border-radius: 0;
+	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
     border-radius: 0;
 	
-    @-webkit-box-shadow: none;
+    -webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
 	
@@ -946,7 +946,7 @@ nav#menu #menu-nav li a:hover {
 
 #contact-form input {
     width: 100%;
-	@-webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -954,7 +954,7 @@ nav#menu #menu-nav li a:hover {
 #contact-form textarea {
     width: 100%;
 	resize: vertical;
-	@-webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -972,7 +972,7 @@ nav#menu #menu-nav li a:hover {
     width: auto;
 	margin-top: 30px;
 	
-	@-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
 		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
@@ -1058,18 +1058,20 @@ nav#menu #menu-nav li a:hover {
 }
 
 #social ul li a {
-	display: block;
+	display: inline-block;;
 	width: 70px;
 	height: 70px;
 
 	background: #26292E;
+	display: inline-block;
 	
-	@-webkit-transition: all 400ms ease-out 0s;	
+	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
-	
-	@-webkit-transform: rotateY(180deg);
+   
+    
+	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
@@ -1085,13 +1087,14 @@ nav#menu #menu-nav li a:hover {
 	
 	opacity: 0.3;
 	filter: alpha(opacity=30);
-	
-	@-webkit-transition: all 400ms ease-out 0s;	
+≈
+	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
+  -webkit-transform: translate(-32px, -70px);
 		  
-	@-webkit-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
@@ -1102,7 +1105,7 @@ nav#menu #menu-nav li a:hover {
 #social ul li.active a {
 	background-color: #DE5E60;	
 	
-	@-webkit-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		 -o-transform: rotateY(0deg);
@@ -1115,7 +1118,7 @@ nav#menu #menu-nav li a:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	@-webkit-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		 -o-transform: rotateY(0deg);
@@ -1158,7 +1161,7 @@ footer .credits {
 	height: 50px;
 	z-index: 99;
 	
-	@-webkit-transition: background 0.1s linear 0s;	
+	-webkit-transition: background 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
@@ -1226,7 +1229,7 @@ footer .credits {
 	font-size: 24px;
 	color: #FFFFFF;	
 
-	@-webkit-animation: circle 1s infinite forwards;
+	-webkit-animation: circle 1s infinite forwards;
 	   -moz-animation: circle 1s infinite forwards;
 		-ms-animation: circle 1s infinite forwards;
 		 -o-animation: circle 1s infinite forwards;
@@ -1242,27 +1245,27 @@ footer .credits {
 	width: 100px;
 	height: 100px;
 	background: #DE5E60;
-	@-webkit-border-radius: 999px;
+	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
 	opacity: 0;
 	filter: alpha(opacity=0);
 			
-	@-webkit-animation: circle 1s infinite forwards;
+	-webkit-animation: circle 1s infinite forwards;
 	   -moz-animation: circle 1s infinite forwards;
 		-ms-animation: circle 1s infinite forwards;
 			animation: circle 1s infinite forwards;
 }
 
-@@-webkit-keyframes circle {
-	0% {@-webkit-transform: rotateY(0deg);
-		@-webkit-animation-timing-function: ease-in;
+@-webkit-keyframes circle {
+	0% {-webkit-transform: rotateY(0deg);
+		-webkit-animation-timing-function: ease-in;
 	}
-	50% {@-webkit-transform: rotateY(180deg);
-		@-webkit-animation-timing-function: ease-out;
+	50% {-webkit-transform: rotateY(180deg);
+		-webkit-animation-timing-function: ease-out;
 	}
-	100% {@-webkit-transform: rotateY(0deg);
-		@-webkit-animation-timing-function: ease-in;
+	100% {-webkit-transform: rotateY(0deg);
+		-webkit-animation-timing-function: ease-in;
 	}
 }
 
@@ -1333,7 +1336,7 @@ footer .credits {
 
 .isotope,
 .isotope .isotope-item {
-  @-webkit-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
      -moz-transition-duration: 0.8s;
       -ms-transition-duration: 0.8s;
        -o-transition-duration: 0.8s;
@@ -1341,7 +1344,7 @@ footer .credits {
 }
 
 .isotope {
-  @-webkit-transition-property: height, width;
+  -webkit-transition-property: height, width;
      -moz-transition-property: height, width;
       -ms-transition-property: height, width;
        -o-transition-property: height, width;
@@ -1349,7 +1352,7 @@ footer .credits {
 }
 
 .isotope .isotope-item {
-  @-webkit-transition-property: @-webkit-transform, opacity;
+  -webkit-transition-property: -webkit-transform, opacity;
      -moz-transition-property:    -moz-transform, opacity;
       -ms-transition-property:     -ms-transform, opacity;
        -o-transition-property:      -o-transform, opacity;
@@ -1361,7 +1364,7 @@ footer .credits {
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
-  @-webkit-transition-duration: 0s;
+  -webkit-transition-duration: 0s;
      -moz-transition-duration: 0s;
       -ms-transition-duration: 0s;
        -o-transition-duration: 0s;
@@ -1374,7 +1377,7 @@ footer .credits {
 
 /* disable CSS transitions for containers with infinite scrolling*/
 .isotope.infinite-scrolling {
-  @-webkit-transition: none;
+  -webkit-transition: none;
      -moz-transition: none;
       -ms-transition: none;
        -o-transition: none;
