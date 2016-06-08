@@ -1090,7 +1090,7 @@ nav#menu #menu-nav li a:hover {
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
-		  
+	 -webkit-transform: translate(32px, 70px);	  
 	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
