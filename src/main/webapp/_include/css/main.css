@@ -309,8 +309,8 @@ h3.spec {
 
 #home-slider .slider-text {
 	position: absolute;
-	left: 45%;
-	top: 45%;
+	left: 50%;
+	top: 50%;
 	margin: -150px 0 0 -585px;
 	width: 1170px;
 	height: 250px;
