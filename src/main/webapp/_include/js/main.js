@@ -21,7 +21,7 @@ BAKMOTOR.mobileNav = function(){
 			$('#mobile-nav').removeClass('open');	
 		}
 	}
-}
+};
 
 BAKMOTOR.listenerMenu = function(){
 	$('#mobile-nav').on('click', function(e){
@@ -39,7 +39,7 @@ BAKMOTOR.listenerMenu = function(){
 		$('#mobile-nav').removeClass('open');
 		$('#navigation-mobile').slideUp(350, 'easeOutExpo');
 	});
-}
+};
 
 
 /* ==================================================
@@ -89,7 +89,7 @@ BAKMOTOR.slider = function(){
 		
 	});
 
-}
+};
 
 
 /* ==================================================
