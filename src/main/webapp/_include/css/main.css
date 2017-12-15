@@ -501,7 +501,12 @@ header .sticky-nav.stuck {
 	left: 0;
 	z-index: 1001;
 }
-
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
 header #logo {
 	color: #FFFFFF;
 	float: left;
