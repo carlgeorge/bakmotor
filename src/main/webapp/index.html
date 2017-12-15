@@ -57,16 +57,7 @@
 
 <!-- Modernizr -->
 <script src="_include/js/modernizr.js"></script>
-$(document).ready(function () {
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (window.location.hash && isChrome) {
-            setTimeout(function () {
-                var hash = window.location.hash;
-                window.location.hash = "";
-                window.location.hash = hash;
-            }, 300);
-        }
-    });
+
 <!-- Analytics -->
 <script type="text/javascript">
 
@@ -79,7 +70,16 @@ $(document).ready(function () {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
+$(document).ready(function () {
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && isChrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    });
 </script>
 <!-- End Analytics -->
 
