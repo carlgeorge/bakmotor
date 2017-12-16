@@ -583,7 +583,7 @@ nav#menu #menu-nav li a:hover {
 	height: 16px;
 	display: block;
 	margin: 22px 0 0 0;
-	
+	-webkit-transform: translateZ(0);
 	-webkit-transform: rotate(0deg);
 	   -moz-transform: rotate(0deg);
 		-ms-transform: rotate(0deg);
